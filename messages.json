@@ -1,22 +1,22 @@
-{
-  "message_info":[
-  {
-    "message":  "Welcome to Chatty Chatty Bang Bang!"
-  },
-  {
-    "message":  "My name is Ted."
-  },
-    {
-    "message":  "My name is Kyle."
-  },
-    {
-    "message":  "My name is Jackie."
-  },
-    {
-    "message":  "My name is Dylan."
-  },
-    {
-    "message":  "My name is Ed."
-  },
-]}
+
+[
+
+"Welcome to Chatty Chatty Bang Bang!",
+
+
+"My name is Ted.",
+
+
+"My name is Kyle.",
+
+
+"My name is Jackie.",
+
+
+"My name is Dylan.",
+
+
+"My name is Ed."
+
+]
 
