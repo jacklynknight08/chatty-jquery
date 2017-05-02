@@ -1,12 +1,12 @@
 "use Strict";
 console.log("add js works");
 
-var userInput = document.getElementById("inputField");
-// var wow = function(){
+Chatty = (function(oldChatty){
+	var privateArray;
 
-
-var messages = Chatty.getMessage;
-var message = [];
-document.getElementById("inputField").innerHTML += `<div>${info[i].message}</div>`
-
-
+	oldChatty.addMessage = function(newMessage) {
+		console.log("newMessage", newMessage);
+		populate(newMessage);
+	}
+	return oldChatty;
+})(Chatty || {});
