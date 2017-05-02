@@ -1,9 +1,10 @@
 console.log("DOM loaded");
 
 var inputField = document.getElementById("inputField");
-inputField.addEventListener("keyup", function(){
-	console.log("keyup works", inputField);
-	if(event.charcode == 13) {
+inputField.addEventListener("keyup", function(event){
+	console.log("keyup works", event);
+	if(event.keyCode == 13){
+		console.log("checking keycode");
 		Chatty.addMessage(inputField.value);
 	}
 })

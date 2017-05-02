@@ -2,11 +2,12 @@
 console.log("add js works");
 
 Chatty = (function(oldChatty){
-	var privateArray;
+	var privateArray = [];
 
 	oldChatty.addMessage = function(newMessage) {
 		console.log("newMessage", newMessage);
-		populate(newMessage);
+		privateArray.push(newMessage);
+		populate(privateArray);
 	}
 	return oldChatty;
 })(Chatty || {});
