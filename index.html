@@ -8,7 +8,10 @@
   <nav id="navBar">
     <div id="logo"><img src="https://bdn-data.s3.amazonaws.com/blogs.dir/357/files/2016/07/ccbb.png" width='100' heigth='100'"</div>
 
-      <div id="input"><input type="text" id="inputField"></div>
+      <label for="input">
+        <p> Enter Text Messages Here:</p>
+        <div id="input"><input type="text" id="inputField"></div>
+      </label>
         <button id="clearAll">Clear All Messages</button>
       <div id="themes">
 
@@ -17,9 +20,10 @@
       <input type="checkbox" name="large" id="large" class="tog-large">
       <label for="large">Large Text</label>
     </div>
-  </nav><br><br><br><br><br><br><br>
-  <div id="output"></div>
+  </nav><br><br><br><br><br><br><br><br><br><br><br>
+  <div id="output"><h2>CHAT:</h2> <hr></div>
 
+<!-- This loading order is important -->
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript" src="add.js"></script>
 <script type="text/javascript" src="delete.js"></script>
