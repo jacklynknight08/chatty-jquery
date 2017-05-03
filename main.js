@@ -9,6 +9,8 @@ var Chatty = (function(){ //This initializes the Chatty object
 
       loader.addEventListener("load", function(){ //this is where it sets the message
         messageArray = JSON.parse(this.responseText);
+        // Above line using "this" is equivalent to writing:
+        // messageArray = JSON.parse(loader.responseText);
         populateFromDomJs(messageArray);
       });
       loader.open("GET", "messages.json");

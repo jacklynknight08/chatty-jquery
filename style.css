@@ -16,11 +16,21 @@ body {
     position:fixed;
     z-index: 1000;
     top: 0px;
-    background-color: white;
+    background-color: lightblue;
     width: 100%;
     left: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid 2px black;
 }
 
 #output {
     margin-top: 3em;
+    border: solid 2px black;
+    background-color: lightgray;
+    padding: 2em;
+}
+#input {
+    padding-left: 5px;
 }
