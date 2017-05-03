@@ -6,6 +6,7 @@ inputField.addEventListener("keyup", function(event){
 	if(event.keyCode == 13){
 		// console.log("checking keycode");
 		Chatty.addMessage(inputField.value);
+		inputField.value = "";
 	}
 })
 
